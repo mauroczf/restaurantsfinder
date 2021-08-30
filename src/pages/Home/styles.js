@@ -1,5 +1,5 @@
 import styled from 'styles-components';
 
-const Container = styled.div`
-  background-color: black;
+export const Container = styled.div`
+  background-color: $(props) => props.theme.colors.primary;
 `;

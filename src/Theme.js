@@ -1,4 +1,4 @@
-const theme
+export const theme
  = {
    colors: {
      primary: '#6200ee',
@@ -9,6 +9,5 @@ const theme
    fonts: {
      fontFamily: 'Roboto, sans-serif',
    },
- },
-
+ }
  export default theme;
